@@ -1,8 +1,9 @@
 name = "backend"
 compatibility_date = "2023-12-01"
 
-# [vars]
-# MY_VAR = "my-variable"
+[vars]
+DATABASE_URL="postgres://postgres:mypassword@localhost:5432/medium"
+JWT_SECRET="myjwtsecret123formedium"
 
 # [[kv_namespaces]]
 # binding = "MY_KV_NAMESPACE"
